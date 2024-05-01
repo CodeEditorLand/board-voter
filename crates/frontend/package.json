@@ -29,15 +29,15 @@
 		"preview": "nuxt preview"
 	},
 	"dependencies": {
-		"@fortawesome/fontawesome-free": "^6.4.0",
-		"@tauri-apps/cli": "^1.4.0",
-		"sass": "^1.63.6"
+		"@fortawesome/fontawesome-free": "6.5.2",
+		"@tauri-apps/cli": "1.5.12",
+		"sass": "1.76.0"
 	},
 	"devDependencies": {
 		"@playform/build": "0.0.7",
 		"@playform/document": "0.0.6",
-		"@types/node": "^18",
-		"nuxt": "^3.6.1"
+		"@types/node": "20",
+		"nuxt": "3.11.2"
 	},
 	"publishConfig": {
 		"access": "public"
