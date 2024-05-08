@@ -30,11 +30,11 @@
 	},
 	"dependencies": {
 		"@fortawesome/fontawesome-free": "6.5.2",
-		"@tauri-apps/cli": "1.5.12",
-		"sass": "1.76.0"
+		"@tauri-apps/cli": "1.5.13",
+		"sass": "1.77.0"
 	},
 	"devDependencies": {
-		"@playform/build": "0.0.7",
+		"@playform/build": "0.0.8",
 		"@playform/document": "0.0.6",
 		"@types/node": "20",
 		"nuxt": "3.11.2"
