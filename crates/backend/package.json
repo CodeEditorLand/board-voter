@@ -1,26 +1,6 @@
 {
 	"name": "backend",
-	"version": "0.0.1",
-	"private": false,
 	"description": "",
-	"keywords": [
-		"land"
-	],
-	"homepage": "HTTPS://GitHub.Com/CodeEditorLand/BoardVoter#readme",
-	"bugs": {
-		"url": "HTTPS://GitHub.Com/CodeEditorLand/BoardVoter/issues"
-	},
-	"repository": {
-		"type": "git",
-		"url": "git+HTTPS://github.com/CodeEditorLand/BoardVoter.git"
-	},
-	"license": "SEE LICENSE IN LICENSE",
-	"author": {
-		"name": "🛬 Land —",
-		"email": "Land@PlayForm.Cloud",
-		"url": "HTTPS://Land.PlayForm.Cloud"
-	},
-	"type": "module",
 	"main": "index.js",
 	"scripts": {
 		"Document": "Document 'Source/**/*.ts'",
@@ -33,10 +13,6 @@
 		"@wdio/spec-reporter": "8.36.1"
 	},
 	"devDependencies": {
-		"@playform/build": "0.0.7",
-		"@playform/document": "0.0.6"
-	},
-	"publishConfig": {
-		"access": "public"
+		"@playform/build": "0.0.7"
 	}
 }
