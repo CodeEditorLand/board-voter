@@ -1,10 +1,11 @@
 {
-	"name": "board-voter-root",
-	"scripts": {
-		"Document": "Document 'Source/**/*.ts'",
-		"prepublishOnly": "Build 'Source/**/*.ts'"
-	},
-	"devDependencies": {
-		"@playform/build": "0.0.7"
-	}
+  "name": "board-voter-root",
+  "private": true,
+  "scripts": {
+    "format": "prettier --write .",
+    "format-check": "prettier --check ."
+  },
+  "devDependencies": {
+    "prettier": "^2.8.8"
+  }
 }
