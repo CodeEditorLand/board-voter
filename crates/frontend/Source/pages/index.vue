@@ -196,72 +196,73 @@
 </template>
 
 <script lang="ts">
-import type { Candidate } from "../system/candidates";
+import { Candidate, CANDIDATES } from "../system/candidates";
+import { new_vote_id, Vote } from "../system/vote";
 
 function shuffle(array: Candidate[]): Candidate[] {
-	let currentIndex = array.length,
-		randomIndex: number;
+  let currentIndex = array.length,
+    randomIndex: number;
 
-	// While there remain elements to shuffle.
-	while (currentIndex != 0) {
-		// Pick a remaining element.
-		randomIndex = Math.floor(Math.random() * currentIndex);
-		currentIndex--;
+  // While there remain elements to shuffle.
+  while (currentIndex != 0) {
+    // Pick a remaining element.
+    randomIndex = Math.floor(Math.random() * currentIndex);
+    currentIndex--;
 
-		// And swap it with the current element.
-		[array[currentIndex], array[randomIndex]] = [
-			array[randomIndex],
-			array[currentIndex],
-		];
-	}
+    // And swap it with the current element.
+    [array[currentIndex], array[randomIndex]] = [
+      array[randomIndex],
+      array[currentIndex],
+    ];
+  }
 
-	return array;
+  return array;
 }
 
 export default {
-	data() {
-		return {
-			// mailto: "mailto:board@tauri.app",
-			// mailtoSubject: "Vote for Tauri Board Election 2023",
-			// yesList: <Candidate[]>[],
-			// noList: <Candidate[]>[],
-			// candidatesList: shuffle(CANDIDATES),
-			// showFallback: false,
-		};
-	},
-	methods: {
-		// as_vote(): Vote {
-		//   return {
-		//     yes: this.yesList.map((c) => c.id),
-		//     no: this.noList.map((c) => c.id),
-		//     random_id: new_vote_id(),
-		//   };
-		// },
-		// as_body(): string {
-		//   return `Thank you for voting!
-		//     Here is a summary of your vote.
-		//     Make sure you send the email.
-		//     -- Voted Yes --
-		//     ${this.yesList.map((c) => c.name).join("\n")}
-		//     -- Voted No --
-		//     ${this.noList.map((c) => c.name).join("\n")}
-		//     -- JSON vote --
-		//     ${JSON.stringify(this.as_vote())}`;
-		// },
-		// clickFallback(e: Event): boolean {
-		//   e.preventDefault();
-		//   // Once opened, keep it open. But only open when you've decided on all candidates.
-		//   this.showFallback = this.showFallback || this.candidatesList.length == 0;
-		//   return true;
-		// },
-	},
-	computed: {
-		dragOptions() {
-			return {
-				animation: 200,
-			};
-		},
-	},
+  data() {
+    return {
+      // mailto: "mailto:board@tauri.app",
+      // mailtoSubject: "Vote for Tauri Board Election 2023",
+      // yesList: <Candidate[]>[],
+      // noList: <Candidate[]>[],
+      // candidatesList: shuffle(CANDIDATES),
+      // showFallback: false,
+    };
+  },
+  methods: {
+    // as_vote(): Vote {
+    //   return {
+    //     yes: this.yesList.map((c) => c.id),
+    //     no: this.noList.map((c) => c.id),
+    //     random_id: new_vote_id(),
+    //   };
+    // },
+    // as_body(): string {
+    //   return `Thank you for voting!
+    //     Here is a summary of your vote.
+    //     Make sure you send the email.
+    //     -- Voted Yes --
+    //     ${this.yesList.map((c) => c.name).join("\n")}
+    //     -- Voted No --
+    //     ${this.noList.map((c) => c.name).join("\n")}
+    //     -- JSON vote --
+    //     ${JSON.stringify(this.as_vote())}`;
+    // },
+    // clickFallback(e: Event): boolean {
+    //   e.preventDefault();
+    //   // Once opened, keep it open. But only open when you've decided on all candidates.
+    //   this.showFallback = this.showFallback || this.candidatesList.length == 0;
+    //   return true;
+    // },
+  },
+  computed: {
+    dragOptions() {
+      return {
+        animation: 200,
+      };
+    },
+  },
 };
 </script>
 
