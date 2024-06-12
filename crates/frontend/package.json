@@ -7,12 +7,12 @@
 		"preview": "nuxt preview"
 	},
 	"dependencies": {
-		"@fortawesome/fontawesome-free": "^6.5.2",
-		"@tauri-apps/cli": "^1.5.14",
-		"sass": "^1.77.4"
+		"@fortawesome/fontawesome-free": "6.5.2",
+		"@tauri-apps/cli": "1.5.14",
+		"sass": "1.77.4"
 	},
 	"devDependencies": {
-		"@types/node": "^20",
-		"nuxt": "^3.12.1"
+		"@types/node": "20",
+		"nuxt": "3.12.1"
 	}
 }
