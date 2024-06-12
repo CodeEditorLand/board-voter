@@ -9,7 +9,7 @@
 	"dependencies": {
 		"@fortawesome/fontawesome-free": "6.5.2",
 		"@tauri-apps/cli": "1.5.14",
-		"sass": "1.77.4"
+		"sass": "1.77.5"
 	},
 	"devDependencies": {
 		"@types/node": "20",
