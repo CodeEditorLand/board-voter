@@ -1,9 +1,9 @@
 {
 	"dependencies": {
-		"@tauri-apps/cli": "2.0.0-rc.4",
-		"@wdio/cli": "9.0.3",
-		"@wdio/local-runner": "9.0.1",
-		"@wdio/spec-reporter": "9.0.0"
+		"@tauri-apps/cli": "2.0.0-rc.7",
+		"@wdio/cli": "9.0.7",
+		"@wdio/local-runner": "9.0.7",
+		"@wdio/spec-reporter": "9.0.7"
 	},
 	"description": "",
 	"main": "index.js",
