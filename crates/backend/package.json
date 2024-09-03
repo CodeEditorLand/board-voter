@@ -1,6 +1,6 @@
 {
 	"dependencies": {
-		"@tauri-apps/cli": "2.0.0-rc.7",
+		"@tauri-apps/cli": "2.0.0-rc.10",
 		"@wdio/cli": "9.0.7",
 		"@wdio/local-runner": "9.0.7",
 		"@wdio/spec-reporter": "9.0.7"
