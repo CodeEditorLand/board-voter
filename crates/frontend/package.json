@@ -2,11 +2,11 @@
 	"dependencies": {
 		"@fortawesome/fontawesome-free": "6.6.0",
 		"@tauri-apps/cli": "2.0.0-rc.10",
-		"sass": "1.77.8"
+		"sass": "1.78.0"
 	},
 	"devDependencies": {
 		"@types/node": "22",
-		"nuxt": "3.13.0"
+		"nuxt": "3.13.1"
 	},
 	"name": "nuxt-app",
 	"scripts": {
