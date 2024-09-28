@@ -7,12 +7,24 @@
 		"preview": "nuxt preview"
 	},
 	"dependencies": {
-		"@fortawesome/fontawesome-free": "^6.4.0",
-		"@tauri-apps/cli": "^1.4.0",
-		"sass": "^1.63.6"
+		"@fortawesome/fontawesome-free": "6.6.0",
+		"@tauri-apps/cli": "2.0.0-rc.16",
+		"sass": "1.79.3"
 	},
 	"devDependencies": {
+<<<<<<< HEAD
 		"@types/node": "^18",
 		"nuxt": "^3.6.1"
+=======
+		"@types/node": "22",
+		"nuxt": "3.13.2"
+	},
+	"name": "nuxt-app",
+	"scripts": {
+		"build": "nuxt build",
+		"dev": "nuxt dev",
+		"generate": "nuxt generate",
+		"preview": "nuxt preview"
+>>>>>>> afbc64da1d866ec63a9d376121c56ed95ec8f4ba
 	}
 }
