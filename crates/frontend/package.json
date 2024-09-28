@@ -13,8 +13,8 @@
 	},
 	"devDependencies": {
 <<<<<<< HEAD
-		"@types/node": "^18",
-		"nuxt": "^3.6.1"
+		"@types/node": "18",
+		"nuxt": "3.6.1"
 =======
 		"@types/node": "22",
 		"nuxt": "3.13.2"

@@ -5,10 +5,10 @@
 	"scripts": {},
 	"dependencies": {
 <<<<<<< HEAD
-		"@tauri-apps/cli": "^1.4.0",
-		"@wdio/cli": "^8.11.2",
-		"@wdio/local-runner": "^8.11.2",
-		"@wdio/spec-reporter": "^8.11.2"
+		"@tauri-apps/cli": "1.4.0",
+		"@wdio/cli": "8.11.2",
+		"@wdio/local-runner": "8.11.2",
+		"@wdio/spec-reporter": "8.11.2"
 	}
 =======
 		"@tauri-apps/cli": "2.0.0-rc.16",
