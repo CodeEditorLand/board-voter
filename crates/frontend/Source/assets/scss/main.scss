@@ -2,11 +2,11 @@
 
 html,
 body {
-  overflow: auto;
-  background: transparent !important;
-  // user-select: none;
+	overflow: auto;
+	background: transparent !important;
+	// user-select: none;
 }
 
 body::-webkit-scrollbar {
-  display: none;
+	display: none;
 }
