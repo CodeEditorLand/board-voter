@@ -16,7 +16,8 @@ pnpm tauri dev
 
 ## Tests
 
-You can run the projects tests using Docker. You don't need Docker but it's the easiest method by far after you've ran it once.
+You can run the projects tests using Docker. You don't need Docker but it's the
+easiest method by far after you've ran it once.
 
 ```bash
 docker build -f docker/test.dockerfile -t throwaway .
