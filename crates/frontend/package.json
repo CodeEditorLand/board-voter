@@ -6,7 +6,7 @@
 	},
 	"devDependencies": {
 		"@types/node": "22",
-		"nuxt": "3.14.159"
+		"nuxt": "3.14.1592"
 	},
 	"name": "nuxt-app",
 	"scripts": {
