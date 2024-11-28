@@ -1,7 +1,9 @@
 export const REPO_URL = "https://github.com/tauri-apps/governance-and-guidance";
+
 export const CANDIDATE_PAGE = `${REPO_URL}/blob/main/board-election-2024/Candidates.md`;
 
 export type CandidateId = string;
+
 export interface Candidate {
 	id: CandidateId;
 	name: string;
