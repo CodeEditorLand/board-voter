@@ -6,8 +6,11 @@ export type CandidateId = string;
 
 export interface Candidate {
 	id: CandidateId;
+
 	name: string;
+
 	avatar: string;
+
 	intro_url: string;
 }
 
