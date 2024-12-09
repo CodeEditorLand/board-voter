@@ -1,6 +1,6 @@
 {
-	"dependencies": {},
-	"devDependencies": {},
 	"name": "board-voter-root",
-	"scripts": {}
+	"scripts": {},
+	"dependencies": {},
+	"devDependencies": {}
 }

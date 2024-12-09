@@ -1,13 +1,13 @@
 {
+	"name": "backend",
+	"description": "",
+	"main": "index.js",
+	"scripts": {},
 	"dependencies": {
-		"@codeeditorland/cli": "2.1.0",
+		"@codeeditorland/cli": "0.0.1",
 		"@wdio/cli": "9.4.1",
 		"@wdio/local-runner": "9.4.1",
 		"@wdio/spec-reporter": "9.2.14"
 	},
-	"description": "",
-	"devDependencies": {},
-	"main": "index.js",
-	"name": "backend",
-	"scripts": {}
+	"devDependencies": {}
 }
